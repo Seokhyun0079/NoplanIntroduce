@@ -294,6 +294,31 @@ code {
 }
 
 /* Privacy / Policy doc page */
+.lang-switcher {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.lang-link {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.lang-link:hover,
+.lang-link.active {
+  color: var(--accent);
+}
+
+.lang-link.active {
+  font-weight: 600;
+}
+
+.lang-sep {
+  margin: 0 0.5rem;
+  color: var(--border);
+}
+
 .policy-doc .policy-updated {
   font-size: 0.9rem;
   color: var(--text-muted);
